@@ -1,37 +1,22 @@
-/*const sayHello  = function () {
+const sayHello1 = () => {
   console.log("Hello, world");
-}
+};
+sayHello1();
 
-sayHello();
-*/
-
-/*
-const sayHello  = function (name) {
+const sayHello2 = (name) => {
   console.log("Hello, " + name);
-}
+};
+sayHello2("Caliban");
+sayHello2("Miranda");
+sayHello2("Ferdinand");
 
-sayHello("Caliban");
-sayHello("Miranda");
-sayHello("Ferdinand");
-*/
-
-/*
-const sayHelloToConsole  = function (name) {
+const sayHelloToConsole = (name) => {
   console.log("Hello, " + name);
-}
-sayHelloToConsole('John'); 
-*/
+};
+sayHelloToConsole('John');
 
-/*
-const returnSayHello  = function (name) {
+const returnSayHello = (name) => {
   return "Hello, " + name;
-}
-const greeting = returnSayHello('John');
-*/
-
-
-const returnSayHello  = function (name) {
-  return "Hello, " + name;
-}
+};
 const greeting = returnSayHello('John');
 console.log(greeting);

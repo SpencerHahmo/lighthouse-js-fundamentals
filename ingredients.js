@@ -4,20 +4,19 @@ const ingredients = ["eggs", "milk", "flour", "sugar", "baking soda", "baking po
 let w = 0;
 while (w < ingredients.length) {
   console.log(ingredients[w]);
-  w++ //Increments w after running through the loop to avoid missing the first ingredient
-} 
+  w++; //Increments w after running through the loop to avoid missing the first ingredient
+}
 console.log("");
 //Uncomment the line above to get a space inbetween the different loops
 
 // Write a for loop that prints out the contents of ingredients:
-for (f = 0; f < ingredients.length; f++) {
-  console.log(ingredients[f])
+for (let f = 0; f < ingredients.length; f++) {
+  console.log(ingredients[f]);
 }
 console.log("");
 //Uncomment the line above to get a space inbetween the different loops
 
 // Write any loop (while or for) that prints out the contents of ingredients backwards:
-for (r = ingredients.length - 1; r >= 0; r--) {
+for (let r = ingredients.length - 1; r >= 0; r--) {
   console.log(ingredients[r]);
-
 }
